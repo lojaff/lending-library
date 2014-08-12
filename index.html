@@ -56,9 +56,9 @@
 			<span class="tool-box-tool">{{idea}}</span>
 			<div class="tool-box-bottom {{rowNumber}}">
 				{{#checkedout}} <span class="tool-box-borrowed">ON LOAN</span>{{/checkedout}}
-				{{^checkedout}}<a href="mailto:{{owneremail}}?subject=Tool Lending: {{idea}}"><span class="tool-box-borrow btn">BORROW</span></a>{{/checkedout}}
+				{{^checkedout}}<a href="mailto:{{owneremail}}?subject=Tool Lending: {{idea}}"><span class="tool-box-borrow btn">UPVOTE</span></a>{{/checkedout}}
 				<ul>
-					<li><small>Suggested by : </small></li>
+					<li><small>SUGGESTED BY : </small></li>
 					<li><a href="mailto:{{owneremail}}">{{name}}</a></li>
 					<li>{{neighborhood}}, {{city}}</li>
 					<li><a href="https://maps.google.com/maps?q={{street}},{{city}},{{state}}" target="_blank"><small>MAP</small></a></li>
