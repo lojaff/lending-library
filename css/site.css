@@ -110,22 +110,3 @@ animation-fill-mode: both;
   .span1 {max-width: 100%;}
 }
 
-
-
-
-.bump {
-  animation: bump 200ms;
-}
-
-@keyframes bump {
-  30% { transform: scale(1.2); }
-}
-
-* { box-sizing: border-box; }
-html, body { height: 100%; }
-body { 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: $bg;
-}
