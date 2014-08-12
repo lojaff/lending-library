@@ -61,9 +61,9 @@
 				{{^checkedout}}<a href="mailto:{{owneremail}}?subject=Tool Lending: {{idea}}"><span class="tool-box-borrow btn">UPVOTE</span></a>{{/checkedout}}
 				<ul>
 					<li><small>SUGGESTED BY : </small></li>
-					<li><a href="mailto:{{owneremail}}">{{name}}</a></li>
+					<li>{{name}}</li>
 					<li>{{neighborhood}}, {{city}}</li>
-					<li><a href="https://maps.google.com/maps?q={{street}},{{city}},{{state}}" target="_blank"><small>MAP</small></a></li>
+				
 					{{#tooldetails}}
 					<li><small>NOTES : </small>{{notes}}</li>
 					{{/tooldetails}}
