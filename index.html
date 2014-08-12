@@ -59,14 +59,16 @@
 				{{#checkedout}} <span class="tool-box-borrowed">ON LOAN</span>{{/checkedout}}
 				{{^checkedout}} <span class="tool-box-borrow btn">UPVOTE</span></a>{{/checkedout}}
 				<ul>
-					<li><small>SUGGESTED BY : </small></li>
-					<li>{{name}}</li>
-					<li><small>NEIGHBORHOOD : </small></li>
+					<li>SUGGESTED BY : {{name}}</li>
+				
 					<li>{{neighborhood}}, {{city}}</li>
 				
-					{{#tooldetails}}
-					<li><small>NOTES : </small>{{notes}}</li>
-					{{/tooldetails}}
+					<div class="vote circle">
+  <div class="increment up"></div>
+  <div class="increment down"></div>
+  
+  <div class="count">8</div>
+</div>
 				</ul>
 		
 		
