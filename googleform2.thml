@@ -1,5 +1,5 @@
 <div class="ss-form-container"><div class="ss-header-image-container"><div class="ss-header-image-image"><div class="ss-header-image-sizer"></div></div></div>
-<div class="ss-top-of-page"><div class="ss-form-heading"><h1 class="ss-form-title" dir="ltr">Uptown Theater</h1>
+<div class="ss-top-of-page"><div class="ss-form-heading">
 
 
 </div></div>
@@ -38,20 +38,7 @@
 
 <div class="ss-item ss-navigate"><table id="navigation-table"><tbody><tr><td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
 <input type="submit" name="submit" value="Submit" id="ss-submit">
-<div class="ss-password-warning ss-secondary-text">Never submit passwords through Google Forms.</div></td>
-</tr></tbody></table></div></ol></form></div>
-<div class="ss-footer"><div class="ss-attribution"></div>
-<div class="ss-legal"><div class="disclaimer-separator"></div>
-<div class="disclaimer" dir="ltr"><div class="powered-by-logo"><span class="powered-by-text">Powered by</span>
-<div class="ss-logo-container"><div class="ss-logo-image"></div>
-<span class="aria-only-help">Google Forms</span></div></div>
-<div class="ss-terms"><span class="disclaimer-msg">This form was created inside of Chicago Public Media.</span>
-<br>
-<a href="https://docs.google.com/forms/d/11c7e8EVyXLJFzt2BAqWor2iIhwbEl8hYGeW6lIwMjgQ/reportabuse?source=https://docs.google.com/a/chicagopublicradio.org/forms/d/11c7e8EVyXLJFzt2BAqWor2iIhwbEl8hYGeW6lIwMjgQ/viewform">Report Abuse</a>
--
-<a href="http://www.google.com/accounts/TOS">Terms of Service</a>
--
-<a href="http://www.google.com/google-d-s/terms.html">Additional Terms</a></div></div></div></div>
+</div></div></div></div>
 
 <div id="docs-aria-speakable" class="docs-a11y-ariascreenreader-speakable docs-offscreen" aria-live="assertive" role="region" aria-atomic></div></div>
 <a class="ss-edit-link" href="https://docs.google.com/a/chicagopublicradio.org/forms/d/11c7e8EVyXLJFzt2BAqWor2iIhwbEl8hYGeW6lIwMjgQ/edit">Edit this form</a>
