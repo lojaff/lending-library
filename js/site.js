@@ -69,8 +69,18 @@ function filterTools(text) {
   })
 }
 
-var SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyaGA-FiSqgpLRoHJSr0wiDh8z17Y_DNxPkbqXBOzErxk0_XlI/exec";
-$(".btn").click(function() {
-  var row = $(this).parents('div.selected-tool').attr('id');
-  $.get(SCRIPT_URL+"?row="+row);
+$( document ).ready(function() {
+  var SCRIPT_URL = "https://script.google.com/a/macros/chicagopublicradio.org/s/AKfycbz0dQd-Bm76zQ8fMFpbodOWd5uFFzm7CDozOFbmxZCP4zk4b1g/exec";
+  $(document).on('click', '.btn', function () {
+    
+    var row = parseInt($(this).parents('div.selected-tool').attr('id'))+1;
+    console.log(SCRIPT_URL+"?row="+row);
+    //$.get(SCRIPT_URL+"?row="+row);
+
+    $.getJSON(SCRIPT_URL+"?callback=?",
+              {row:row},
+              function (data) { 
+                console.log("vote counted");
+              });
+  });
 });
