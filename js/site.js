@@ -69,4 +69,8 @@ function filterTools(text) {
   })
 }
 
-
+var SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyaGA-FiSqgpLRoHJSr0wiDh8z17Y_DNxPkbqXBOzErxk0_XlI/exec";
+$(".btn").click(function() {
+  var row = $(this).parents('div.selected-tool').attr('id');
+  $.get(SCRIPT_URL+"?row="+row);
+});
